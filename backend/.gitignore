@@ -1,0 +1,87 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+*.iml
+
+# Byte-compiled files
+*.class
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Coverage reports
+htmlcov/
+*.cover
+.coverage
+.coverage.*
+.cache
+.nosetests/
+coverage.xml
+
+# Test files
+junit-*.xml
+
+# Node
+node_modules/
+
+# Docker
+*.pid
+docker-compose.override.yml
+.env.docker
+
+# Optional
+!README.md
+
+# Git
+.git/
+
+# Sqlite
+.db
+.sqlite3
+
+# PyCharm   
+.idea/
+
