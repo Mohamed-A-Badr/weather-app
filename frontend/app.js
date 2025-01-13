@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             resultHTML += `</ul>
                 <div class="card-footer text-muted">
-                    <small>Timezone: ${responseData.timezone} | Local Time: ${responseData.currentConditions.datetime}</small>
+                    <small>Timezone: ${responseData.timezone}${responseData.currentConditions ? ` | Local Time: ${responseData.currentConditions.datetime}` : ''}</small>
                 </div>
             `;
 
