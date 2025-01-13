@@ -130,3 +130,13 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 WEATHER_API_KEY = os.getenv("VISUAL_CROSSING_API_KEY")
+
+CACHES = {
+    "default": {
+        'BACKEND':"django_redis.cache.RedisCache",
+        'LOCATION':os.getenv('REDIS_URL'), 
+        'OPTIONS':{
+            'CLIENT_CLASS':'django_redis.client.DefaultClient'
+        }
+    }
+}
